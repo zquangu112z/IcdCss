@@ -1,3 +1,4 @@
+icd_code,ccs_cat,ccs_cat_desc,icd_desc
 '     ','0  ','No PROC          ',"INVALID CODES IN USER DATA"
 '0101 ','1  ','Inc/exc CNS      ',"CISTERNAL PUNCTURE"
 '0109 ','1  ','Inc/exc CNS      ',"CRANIAL PUNCTURE NEC"
