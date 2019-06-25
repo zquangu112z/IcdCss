@@ -7,6 +7,9 @@ import (
 )
 
 func main() {
+	fmt.Println(convertor.GetIcdInfo("C028", convertor.CodeSystemICD10Diag).CcsCategory)
+	fmt.Println(convertor.GetIcdInfo("C028", convertor.CodeSystemICD10Diag).CcsCategoryDescription)
+
 	fmt.Println(convertor.GetIcdInfoBestEffort("C028").CcsCategory)
 	fmt.Println(convertor.GetIcdInfoBestEffort("C028").CcsCategoryDescription)
 

@@ -48,6 +48,10 @@ var (
 
 func init() {
 	var err error
+	// Load directly from csv file
+	// CcsConvertor = loadCodeSetFromFile()
+
+	// Load from json string
 	CcsConvertor, err = loadCodeSetFromString(CcsCodesJson)
 	if err != nil {
 		panic("[E0001] Cannot load CCS convertor. Please review the CcsCodesJson string.")
@@ -81,7 +85,7 @@ func GetIcdInfoBestEffort(icdCode string) IcdInfo {
 	return IcdInfo{}
 }
 
-func GetIcdCssRel(icdCode string, codeSystem CodeSystem) IcdInfo {
+func GetIcdInfo(icdCode string, codeSystem CodeSystem) IcdInfo {
 	icdCode = strings.Replace(icdCode, ".", "", 1)
 	return CcsConvertor[codeSystem][icdCode]
 }
