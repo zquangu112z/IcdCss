@@ -1,5 +1,8 @@
 # ICD to CCS code convertor 
 
+CCS: Clinical Classifications Software scheme
+ICD: International Statistical Classification of Diseases and Related Health Problems
+
 ## About the mapping
 ICD have 2 versions ICD9 and ICD10. Each version have 2 kinds of code CM (diagnosis) and PCS (procedure). 
 Thus, we have 4 combinations.
