@@ -1,4 +1,4 @@
-# ICD to CCS convertor 
+# ICD to CCS code convertor 
 
 ## About the mapping
 ICD have 2 versions ICD9 and ICD10. Each version have 2 kinds of code CM (diagnosis) and PCS (procedure). 
